@@ -15,4 +15,17 @@ while True:
 	elif(yc=='r' and cc=='s'):
 		print("you win the game")
 	elif(yc=='r' and cc=='p'):
+		print("you win the game")
+	elif(yc=='p'and cc=='p'):
+		print("draw")
+	elif(yc=='r' and cc=='r'):
+		print("draw")
+	elif(yc=='r' and cc=='r'):
+		print("draw")
+	elif(yc=='s' and cc=='s'):
+		print("draw")
+	elif(yc=='s' and cc=='r'):
 		print("computer wins the game")
+	elif(yc=='p' and cc=='s'):
+		print("computer wins the game")
+		
